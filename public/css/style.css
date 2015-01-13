@@ -25,7 +25,31 @@ h2 {
 	color: #000;
 }
 
+#nav {
+	display:inline;
+}
+
+#links {
+	width:20%;
+	display:inline-block;
+}
+
+#links a {
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+
 #header {
 /*	padding:20px; */
 	text-align: center;
+}
+
+.mainImg {
+	width:590px;
+	height: 250px;
+	border: 1px, 0, 1px , 0;
+	border-style: dotted;
+	border-width: 1px;
+	margin-top: 40px;
 }
